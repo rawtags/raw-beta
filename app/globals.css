@@ -11,3 +11,10 @@
 .ro-word{font-family:"Arial Rounded MT Bold","Trebuchet MS",Arial,sans-serif}.voice-party button{font-size:.77rem}.voice-party audio{max-width:100%}
 
 .challenges-panel{margin-top:25px}.challenge-list article{border-top:1px solid var(--border);padding:22px 0}.challenge-list article:last-child{padding-bottom:0}.challenge-list form{max-width:450px}.result-proposal{margin-top:20px;padding:18px;background:var(--hover);border-radius:12px}.challenges-panel>.plain-details form{max-width:500px}
+
+.global-announcement{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:18px;padding:16px 20px;border-color:var(--line)}
+.global-announcement-copy{min-width:0;overflow-wrap:anywhere}
+.global-announcement-copy strong{display:block;margin-top:4px}
+.global-announcement-copy p{margin:5px 0 0}
+.global-announcement .actions{flex-shrink:0;margin:0}
+@media(max-width:600px){.global-announcement{flex-wrap:wrap;padding:14px}.global-announcement .actions{flex-shrink:1}}
